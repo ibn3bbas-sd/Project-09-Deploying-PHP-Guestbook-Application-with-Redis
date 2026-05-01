@@ -1,0 +1,18 @@
+# Frontend Service - LoadBalancer type (for OKE / cloud environments)
+# Use this for Oracle Kubernetes Engine (OKE) or any cloud-managed cluster.
+# For local environments (minikube, playgrounds), use frontend-service-nodeport.yaml instead.
+apiVersion: v1
+kind: Service
+metadata:
+  name: frontend
+  labels:
+    app: guestbook
+    tier: frontend
+spec:
+  type: LoadBalancer
+  ports:
+  - port: 80
+    targetPort: 80
+  selector:
+    app: guestbook
+    tier: frontend

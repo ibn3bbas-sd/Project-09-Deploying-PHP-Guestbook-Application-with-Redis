@@ -1,4 +1,4 @@
-# 📒 PHP Guestbook on Kubernetes
+# 📒 Deploying PHP Guestbook Application with Redis
 
 A hands-on demonstration of deploying a multi-tier **PHP Guestbook** application on Kubernetes, featuring a Redis leader/follower replication pattern. This project supports two deployment paths:
 
@@ -11,7 +11,7 @@ A hands-on demonstration of deploying a multi-tier **PHP Guestbook** application
 
 ## 📐 Architecture
 
-![Guestbook Architecture](docs/architecture.svg)
+![Guestbook Architecture](docs/guestbook-architecture.svg)
 
 ### Workflow
 
