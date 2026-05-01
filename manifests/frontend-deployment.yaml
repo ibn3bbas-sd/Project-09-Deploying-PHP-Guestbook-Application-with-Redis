@@ -4,6 +4,9 @@ kind: Deployment
 metadata:
   name: frontend
   namespace: test
+  annotations:
+    oci.oraclecloud.com/load-balancer-type: "lb"
+    service.beta.kubernetes.io/oci-load-balancer-subnet1: "ocid1.subnet.oc1.me-jeddah-1.<CORRECT_PUBLIC_SUBNET_OCID>"
   labels:
     app: guestbook
     tier: frontend
