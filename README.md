@@ -72,6 +72,8 @@ kubectl cluster-info
 
 ## 🚀 Option 1 — Oracle Kubernetes Engine (OKE)
 
+![Guestbook Architecture in OKE ](docs/gusetbook-architecture-oke.png)
+
 OKE is Oracle Cloud Infrastructure's managed Kubernetes service. It provisions an OCI Load Balancer automatically when you use `type: LoadBalancer` in your Service.
 
 ### 1.1 Prerequisites for OKE
