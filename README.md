@@ -72,7 +72,7 @@ kubectl cluster-info
 
 ## 🚀 Option 1 — Oracle Kubernetes Engine (OKE)
 
-![Guestbook Architecture in OKE ](docs/gusetbook-architecture-oke.png)
+![Guestbook Architecture in OKE ][guestbookArchitecture]
 
 OKE is Oracle Cloud Infrastructure's managed Kubernetes service. It provisions an OCI Load Balancer automatically when you use `type: LoadBalancer` in your Service.
 
@@ -400,3 +400,6 @@ kubectl port-forward service/frontend 8080:80
 - [iximiuz Labs](https://labs.iximiuz.com/playgrounds?category=kubernetes&filter=all)
 - [Killercoda Kubernetes Playground](https://killercoda.com/playgrounds/scenario/kubernetes)
 - [KodeKloud Public Playgrounds](https://kodekloud.com/public-playgrounds)
+
+
+[guestbookArchitecture]: docs/gusetbook-architecture-oke.png
